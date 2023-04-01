@@ -6,8 +6,8 @@ body {
 }
 
 .top-container {
-	width: 1746px;
-	height: 1204px;
+	width: 1000px;
+	height: 1200px;
 	left: -145px;
 	top: -223px;
 }
@@ -28,7 +28,7 @@ body {
 	position: absolute;
 	width: 623px;
 	height: 623px;
-	left: 978px;
+	left: 895px;
 	top: 358px;
 
 	background: #608BFF;
