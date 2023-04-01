@@ -1,0 +1,57 @@
+header {
+  margin-left: 135px;
+  margin-top: 24px;
+  padding: 0 2rem;
+  width: 1170px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  color: orange;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .logo {
+  color: #608BFF;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar .links {
+  display: flex;
+  gap: 2rem;
+}
+
+.login {
+  color: #000000;
+  opacity: 0.6;
+}
+
+.sign-in {
+  background-color: #608BFF;
+  color: #fff;
+  margin-left: 25px;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 28px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+}
