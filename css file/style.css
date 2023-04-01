@@ -5,19 +5,16 @@ body {
 	padding: 0;
 }
 
+/* Top container features */
+
 .top-container {
-	width: 1000px;
-	height: 1200px;
-	left: -145px;
-	top: -223px;
+	height: 700px;
 }
 
 .ellipse {
 	position: absolute;
 	width: 623px;
 	height: 623px;
-	left: -145px;
-	top: -223px;
 
 	background: #FFD23F;
 	opacity: 0.4;
@@ -26,10 +23,10 @@ body {
 
 .ellipse2 {
 	position: absolute;
-	width: 623px;
-	height: 623px;
-	left: 895px;
-	top: 358px;
+	width: 600px;
+	height: 500px;
+	margin-left: 895px;
+	margin-top: 300px;
 
 	background: #608BFF;
 	opacity: 0.4;
@@ -40,10 +37,44 @@ body {
 	position: absolute;
 	width: 120px;
 	height: 130px;
-	left: 9.74px;
-	top: 5px;
+	margin-left: 30px;
+	margin-top: 5px;
 
-	background: url(images/topbooks.png);
+}
+
+.group {
+	position: absolute;
+	width: 600px;
+	height: 400px;
+	margin-left: 780px;
+	margin-top: 90px;
+}
+
+/* Mid container features */
+
+.ellipse3 {
+	position: relative;
+	width: 623px;
+	height: 623px;
+	margin-top: 600px;
+
+	background: #608BFF;
+	opacity: 0.4;
+	filter: blur(350px);
+	
+}
+
+.ellipse4 {
+	position: relative;
+	width: 623px;
+	height: 623px;
+	margin-left: 895px;
+	margin-top: 800px;
+
+	background: #FFD23F;
+	opacity: 0.4;
+	filter: blur(350px);
+	
 }
 
 main {
