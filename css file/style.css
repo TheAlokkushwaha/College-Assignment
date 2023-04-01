@@ -36,6 +36,15 @@ body {
 	filter: blur(350px);
 }
 
+.top-books {
+	position: absolute;
+	width: 120px;
+	height: 130px;
+	left: 9.74px;
+	top: 5px;
+
+	background: url(images/topbooks.png);
+}
 
 main {
 	margin: 20px;
