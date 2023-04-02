@@ -1,8 +1,11 @@
-body {
-	background-color: #F5F5F5;
-	font-family: 'Poppins';
+*{
 	margin: 0;
 	padding: 0;
+	font-family: 'Poppins';
+}
+
+body {
+	background-color: #F5F5F5;
 }
 
 /* Top container features */
@@ -42,8 +45,7 @@ body {
 
 }
 
-.group {
-	position: absolute;
+.college {
 	width: 600px;
 	height: 400px;
 	margin-left: 780px;

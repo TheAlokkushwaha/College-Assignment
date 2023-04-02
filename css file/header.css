@@ -1,13 +1,13 @@
 header {
   margin-left: 180px;
   margin-top: 24px;
-  padding: 0 2rem;
   width: 1170px;
 }
 
 
-li {
+.navbar ul li {
   list-style: none;
+  position: relative;
 }
 
 a {
@@ -15,7 +15,7 @@ a {
   color: #000000;
 }
 
-a:hover {
+.navbar ul li a:hover {
   color: orange;
 }
 
@@ -23,12 +23,6 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.navbar .logo {
-  color: #608BFF;
-  font-size: 1.5rem;
-  font-weight: bold;
 }
 
 .navbar .links {
@@ -41,6 +35,10 @@ a:hover {
   opacity: 0.6;
 }
 
+.login:hover{
+  color: rgb(127, 14, 14);
+}
+
 .sign-in {
   background-color: #608BFF;
   color: #fff;
@@ -51,4 +49,46 @@ a:hover {
   font-size: 0.8rem;
   font-weight: bold;
   cursor: pointer;
+}
+
+.sign-in:hover {
+  color: black;
+  
+}
+
+.dropdown-menu{
+  display: none;
+}
+
+.navbar ul li:hover .dropdown-menu{
+  display: block;
+  position: absolute;
+  top: 100%;
+}
+
+.navbar ul li:hover .dropdown-menu ul{
+  display: block;
+  margin: 5px;
+}
+
+.navbar ul li:hover .dropdown-menu ul li{
+  width: max-content;
+  padding: 10px;
+}
+
+.fas {
+  float: right;
+  margin-left: 12px;
+  padding: 3px;
+}
+
+.dropdown-menu-1 {
+  display: none;
+}
+
+.dropdown-menu ul li:hover .dropdown-menu-1 {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 185px;
 }
